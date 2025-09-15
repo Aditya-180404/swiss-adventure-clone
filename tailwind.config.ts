@@ -47,6 +47,17 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        /* Swiss Tourism Colors */
+        alpine: {
+          DEFAULT: "hsl(var(--alpine-blue))",
+          foreground: "hsl(var(--alpine-blue-foreground))",
+        },
+        golden: {
+          DEFAULT: "hsl(var(--golden-hour))",
+          foreground: "hsl(var(--golden-hour-foreground))",
+        },
+        snow: "hsl(var(--snow-white))",
+        mountain: "hsl(var(--mountain-gray))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +68,10 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+        serif: ['Playfair Display', 'serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
